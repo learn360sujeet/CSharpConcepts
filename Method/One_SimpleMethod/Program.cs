@@ -10,6 +10,18 @@ namespace One_SimpleMethod
     {
         static void Main(string[] args)
         {
+            MethodLearning();//Called the Method 
+            Console.ReadLine();
+                
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
+        private static void MethodLearning() //Created the method
+        {
+            Console.WriteLine("Welcoming to Method learning!");
+
         }
     }
 }
